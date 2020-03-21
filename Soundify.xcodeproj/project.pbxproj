@@ -970,9 +970,9 @@
 			baseConfigurationReference = 0F18CC1759CA450F1F2B9B63 /* Pods-Soundify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 647X655A2K;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6C5SPDBTU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -983,9 +983,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.testgame.profile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Soundify;
 				PRODUCT_NAME = Soundify;
-				PROVISIONING_PROFILE_SPECIFIER = "Test game dev";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OBJC_BRIDGING_HEADER = "Soundify/Utils/Soundify-Bridging-Header.h";
 				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
@@ -1012,7 +1012,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.testgame.profile.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Soundify;
 				PRODUCT_NAME = Soundify;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Soundify/Utils/Soundify-Bridging-Header.h";
